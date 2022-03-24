@@ -1,0 +1,65 @@
+/*
+ This is only here as a guide for various device sizes.
+ Other than the body background color there are no style changes.
+*/
+
+@media only screen and (max-device-width : 2000px) {
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@media only screen and (max-device-width : 900px) {
+    body {
+        background-color: rgb(236, 240, 9);
+    }
+}
+
+@media only screen and (max-device-width : 800px) {
+    body {
+        background-color: rgb(145, 255, 0);
+    }
+}
+
+@media only screen and (max-device-width : 700px) {
+    body {
+        background-color: rgb(0, 238, 255);
+    }
+}
+
+@media only screen and (max-device-width : 600px) {
+    body {
+        background-color: rgb(0, 47, 255);
+    }
+}
+
+@media only screen and (max-device-width : 500px) {
+    body {
+        background-color: black;
+    }
+}
+
+@media only screen and (max-device-width : 400px) {
+    body {
+        background-color: rgb(162, 0, 255);
+    }
+}
+
+@media only screen and (max-device-width : 300px) {
+    body {
+        background-color: rgb(255, 0, 242);
+    }
+}
+
+@media only screen and (max-device-width : 200px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media only screen and (max-device-width : 100px) {
+    body {
+        background-color: rgb(78, 17, 17);
+        overflow-y: auto;
+    }
+}

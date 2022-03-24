@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css" />
+    <!-- <link rel="stylesheet" href="media-specific.css" />  uncomment if desired -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>css-grid-testing</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>https://github.com/TonyGravagno/css-grid-testing</h1>
+        <div class="f1_form">
+            <div class="f1_control f1_name">
+                <div class="c1_label">c1_label for name field</div>
+                <div class="c1_field"><input type="text" id="d1_name" name="foo" placeholder="name" size="40" />
+                </div>
+            </div>
+            <div class="f1_control f1_city">
+                <div class="c1_label">city</div>
+                <div class="c1_field"><input type="text" id="d1_city" name="foo" placeholder="city" size="22" />
+                </div>
+            </div>
+            <div class="f1_control f1_state">
+                <div class="c1_label">state</div>
+                <div class="c1_field"><input type="text" id="d1_state" name="foo" placeholder="state" size="6" />
+                </div>
+            </div>
+            <div class="f1_control f1_zip">
+                <div class="c1_label">zip</div>
+                <div class="c1_field"><input type="text" id="d1_zip" name="foo" placeholder="zip" size="12" />
+                </div>
+            </div>
+            <div class="f1_control f1_country">
+                <div class="c1_label">larger country label is longer than field</div>
+                <div class="c1_field"><input type="text" id="d1_country" name="foo" placeholder="country" size="20" />
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="f2_form">
+            <div class="f2_control" id="c2_name">
+                <div class="c2_label">c2_label for name field</div>
+                <div class="c2_field"><input type="text" id="d2_name" name="foo" placeholder="name" size="40" />
+                </div>
+            </div>
+            <div class="f2_horizontal_container" id="c2_csz">
+                <div class="f2_horizontal_control" id="c2_city">
+                    <div class="c2_label">city</div>
+                    <div class="c2_field"><input type="text" id="d2_city" name="foo" placeholder="city" size="22" />
+                    </div>
+                </div>
+                <div class="f2_horizontal_control" id="c2_state">
+                    <div class="c2_label">state</div>
+                    <div class="c2_field"><input type="text" id="d2_state" name="foo" placeholder="state" size="6" />
+                    </div>
+                </div>
+                <div class="f2_horizontal_control" id="c2_zip">
+                    <div class="c2_label">zip</div>
+                    <div class="c2_field"><input type="text" id="d2_zip" name="foo" placeholder="zip" size="12" />
+                    </div>
+                </div>
+            </div>
+            <div class="f2_control" id="c2_country">
+                <div class="c2_label">larger country label is longer than field</div>
+                <div class="c2_field"><input type="text" id="d2_country" name="foo" placeholder="country" size="20" />
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="f3_form">
+            <div class="f3_control" id="c3_name">
+                <div class="c3_label">c3_label for name field</div>
+                <div class="c3_field"><input type="text" id="d3_name" name="foo" placeholder="name" size="40" />
+                </div>
+            </div>
+            <div class="f3_horizontal_control" id="c3_city">
+                <div class="c3_label">city</div>
+                <div class="c3_field"><input type="text" id="d3_city" name="foo" placeholder="city" size="22" />
+                </div>
+            </div>
+            <div class="f3_horizontal_control" id="c3_state">
+                <div class="c3_label">state</div>
+                <div class="c3_field"><input type="text" id="d3_state" name="foo" placeholder="state" size="6" />
+                </div>
+            </div>
+            <div class="f3_horizontal_control" id="c3_zip">
+                <div class="c3_label">zip</div>
+                <div class="c3_field"><input type="text" id="d3_zip" name="foo" placeholder="zip" size="12" />
+                </div>
+            </div>
+            <div class="f3_control" id="c3_country">
+                <div class="c3_label">larger country label is longer than field</div>
+                <div class="c3_field"><input type="text" id="d3_country" name="foo" placeholder="country" size="20" />
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="f4_form">
+            <div class="f4_control" id="c4_name">
+                <div class="c4_label">c4_label for name field</div>
+                <div class="c4_field"><input type="text" id="d4_name" name="foo" placeholder="name" size="40" />
+                </div>
+            </div>
+            <div class="f4_horizontal_control" id="c4_city">
+                <div class="c4_label">city</div>
+                <div class="c4_field"><input type="text" id="d4_city" name="foo" placeholder="city" size="22" />
+                </div>
+            </div>
+            <div class="f4_horizontal_control" id="c4_state">
+                <div class="c4_label">state</div>
+                <div class="c4_field"><input type="text" id="d4_state" name="foo" placeholder="state" size="6" />
+                </div>
+            </div>
+            <div class="f4_horizontal_control" id="c4_zip">
+                <div class="c4_label">zip</div>
+                <div class="c4_field"><input type="text" id="d4_zip" name="foo" placeholder="zip" size="12" />
+                </div>
+            </div>
+            <div class="f4_control" id="c4_country">
+                <div class="c4_label">larger country label is longer than field</div>
+                <div class="c4_field"><input type="text" id="d4_country" name="foo" placeholder="country" size="20" />
+                </div>
+            </div>
+        </div>
+
+        <div class="f5_form">
+            <div class="f5_control" id="c5_name">
+                <div class="c5_label">c5_label for name field</div>
+                <div class="c5_field"><input type="text" id="d5_name" name="foo" placeholder="name" size="40" />
+                </div>
+            </div>
+            <div class="f5_horizontal_control" id="c5_city">
+                <div class="c5_label">city</div>
+                <div class="c5_field"><input type="text" id="d5_city" name="foo" placeholder="city" size="22" />
+                </div>
+            </div>
+            <div class="f5_horizontal_control" id="c5_state">
+                <div class="c5_label">state</div>
+                <div class="c5_field"><input type="text" id="d5_state" name="foo" placeholder="state" size="6" />
+                </div>
+            </div>
+            <div class="f5_horizontal_control" id="c5_zip">
+                <div class="c5_label">zip</div>
+                <div class="c5_field"><input type="text" id="d5_zip" name="foo" placeholder="zip" size="12" />
+                </div>
+            </div>
+            <div class="f5_control" id="c5_country">
+                <div class="c5_label">larger country label is longer than field</div>
+                <div class="c5_field"><input type="text" id="d5_country" name="foo" placeholder="country" size="20" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
